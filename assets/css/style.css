@@ -318,7 +318,7 @@ p {
 }
 
 .input-width{
-    width: 500px;
+    width: 515px;
 }
 
 .column{
@@ -344,5 +344,10 @@ p {
 }
 
 .permission,p{
-    width: 800px;
+    width: 600px;
 }
+
+.span-2{
+    padding: 10px;
+}
+
