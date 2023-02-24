@@ -337,3 +337,12 @@ p {
     margin-top: 30px;
     margin-bottom: 15px;
 }
+
+.title-flex,h3{
+    display: flex;
+    justify-content: start;
+}
+
+.permission,p{
+    width: 800px;
+}

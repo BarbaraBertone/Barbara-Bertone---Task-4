@@ -137,8 +137,9 @@
                     </div>
                 </div>
 
-                <h3>What position(s) do you normally play? (check all that apply)</h3>
-
+                <div class="title-flex">
+                    <h3>What position(s) do you normally play? (check all that apply)</h3>
+                </div>
 
                 <input type="checkbox" name="position_play" id="forward" value="Forward">
                 <label for="forward">Forward</label>
@@ -150,48 +151,58 @@
                 <label for="goalkeeper">Goalkeeper</label>
 
 
-                <h3>Uniform Size</h3>
+                <div class="title-flex">
+                    <h3>Uniform Size</h3>
+                </div>
 
+                <div class="row">
+                    <div class="column">
+                        <label for="youth_smal">
+                            <input type="radio" name="uniform_size" id="youth_smal" value="Youth Smal">Youth Smal
+                        </label>
+                        <label for="youth_medium">
+                            <input type="radio" name="uniform_size" id="youth_medium" value="Youth Medium">Youth Medium
+                        </label>
+                        <label for="youth_large">
+                            <input type="radio" name="uniform_size" id="youth_large" value="Youth Large">Youth Large
+                        </label>
+                        <label for="small">
+                            <input type="radio" name="uniform_size" id="small" value="Small">Small
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="medium">
+                            <input type="radio" name="uniform_size" id="medium" value="Medium">Medium
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="uniform_size" id="large" value="Large">Large
+                        </label>
+                        <label for="extra_large">
+                            <input type="radio" name="uniform_size" id="extra_large" value="Extra Large">Extra Large
+                        </label>
+                    </div>
+                </div>
 
-                <label for="youth_smal">
-                    <input type="radio" name="uniform_size" id="youth_smal" value="Youth Smal">Youth Smal
-                </label>
-                <label for="youth_medium">
-                    <input type="radio" name="uniform_size" id="youth_medium" value="Youth Medium">Youth Medium
-                </label>
-                <label for="youth_large">
-                    <input type="radio" name="uniform_size" id="youth_large" value="Youth Large">Youth Large
-                </label>
-                <label for="small">
-                    <input type="radio" name="uniform_size" id="small" value="Small">Small
-                </label>
-                <label for="medium">
-                    <input type="radio" name="uniform_size" id="medium" value="Medium">Medium
-                </label>
-                <label for="large">
-                    <input type="radio" name="uniform_size" id="large" value="Large">Large
-                </label>
-                <label for="extra_large">
-                    <input type="radio" name="uniform_size" id="extra_large" value="Extra Large">Extra Large
-                </label>
-
-
+                <div class="title-flex">
                 <h3>Permission to Play</h3>
+                </div>
 
-                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I
-                    will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In
-                    recognizing the possibility of physical injury assiciated with hockey and in
-                    consideration for the "League" acceptig the registrant for its hockey programs
-                    and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
-                    their emplyees and associated personnel and volunteers, including the facilities
-                    for practices and games, against any claim by or on behalf of the registrant as a
-                    result of the registrant's participation in the programand/orbeing transported to
-                    or from MDHL sponsored activities, which transportation.<br>
-                    By signing below, I herebyagree and authorizethe above. In addition, by signing
-                    below, I also acknowledge that I have read the cancellation policy and agree to
-                    its terms.
-                </p>
-
+                <div class="permission">
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I
+                        will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In
+                        recognizing the possibility of physical injury assiciated with hockey and in
+                        consideration for the "League" acceptig the registrant for its hockey programs
+                        and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                        their emplyees and associated personnel and volunteers, including the facilities
+                        for practices and games, against any claim by or on behalf of the registrant as a
+                        result of the registrant's participation in the programand/orbeing transported to
+                        or from MDHL sponsored activities, which transportation.<br>
+                        By signing below, I herebyagree and authorizethe above. In addition, by signing
+                        below, I also acknowledge that I have read the cancellation policy and agree to
+                        its terms.
+                    </p>
+                </div>
+                
                 <label for="parent">Parent/Guardian Signature:</label>
                 <input class="input-style" type="text" name="parent" id="parent">
                 <br>
