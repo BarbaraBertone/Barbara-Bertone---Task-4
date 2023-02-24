@@ -271,6 +271,10 @@ li {
     padding-top: 30px;
 }
 
+.separate{
+    padding: 40px;
+}
+
 .maps>h3{
     font-size: 40px;
 }
@@ -281,10 +285,15 @@ li {
 
 .rectangulo,h3{
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 .maps,h4{
     font-size: 30px;
+}
+
+.container-maps{
+    display: flex;
+    justify-content: space-between;
 }
 
 #form,
